@@ -29,27 +29,4 @@ public class Etapa3 {
         // No final, a pilha auxiliar deve estar vazia se todos os parênteses estiverem balanceados
         return auxStack.isEmpty();
     }
-    
-    public static void main(String[] args) {
-        Etapa3 etapa = new Etapa3();
-        
-        // expressão incorreta: A+B(
-        Stack<Character> expr1 = new StaticStack<>(20);
-        expr1.push('(');
-        expr1.push('B');
-        expr1.push('+');
-        expr1.push('A');
-        
-        // expressão correta: (A+B)
-        Stack<Character> expr2 = new StaticStack<>(20);
-        expr2.push(')');
-        expr2.push('B');
-        expr2.push('+');
-        expr2.push('A');
-        expr2.push('(');
-        
-        System.out.println(etapa.checkBrackets(expr1));
-        System.out.println(etapa.checkBrackets(expr2));
-    }
-
 }

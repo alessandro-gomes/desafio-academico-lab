@@ -48,6 +48,8 @@ public class PrincipalParaTeste {
         
         
         // testes do segundo metodo do documento.
+        
+        System.out.println("\nTestes da classe Etapa3");
         Etapa3 etapa = new Etapa3();
         
         // expressão correta: ((A+B)-(C+D))
@@ -116,11 +118,11 @@ public class PrincipalParaTeste {
         expr6.push('(');
         
         // Verificação das expressões
-        System.out.println(etapa.checkBrackets(expr1));
-        System.out.println(etapa.checkBrackets(expr2));
-        System.out.println(etapa.checkBrackets(expr3));
-        System.out.println(etapa.checkBrackets(expr4));
-        System.out.println(etapa.checkBrackets(expr5));
-        System.out.println(etapa.checkBrackets(expr6));
+        System.out.println("Expressão correta? " + etapa.checkBrackets(expr1));
+        System.out.println("Expressão correta? " + etapa.checkBrackets(expr2));
+        System.out.println("Expressão correta? " + etapa.checkBrackets(expr3));
+        System.out.println("Expressão correta? " + etapa.checkBrackets(expr4));
+        System.out.println("Expressão correta? " + etapa.checkBrackets(expr5));
+        System.out.println("Expressão correta? " + etapa.checkBrackets(expr6));
     }
 }
