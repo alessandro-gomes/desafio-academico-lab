@@ -1,8 +1,8 @@
 package etapa4;
 
-public class Principal {
+public class PrincipalParaTeste {
     public static void main(String[] args) {
-        LinkedStack<String> ls = new LinkedStack<>();
+        /*LinkedStack<String> ls = new LinkedStack<>();
         
         System.out.println("Pilha vazia? " + ls.isEmpty());
         
@@ -21,7 +21,7 @@ public class Principal {
         
         System.out.println("Elemento retirado: " + ls.pop());
         System.out.println("Quantidade de elementos: " + ls.numElements());
-        System.out.println("Topo: " + ls.top());
+        System.out.println("Topo: " + ls.top());*/
        
        //-------------------------
        
@@ -37,7 +37,7 @@ public class Principal {
         System.out.println("Elementos: " + ls.toString());
         System.out.println("Topo: " + ls.top());*/
         
-        /*LinkedQueue<String> lq = new LinkedQueue<>();
+        LinkedQueue<String> lq = new LinkedQueue<>();
         
         lq.enqueue("teste");
         lq.enqueue("teste1");
@@ -52,6 +52,6 @@ public class Principal {
         System.out.println("Quantidade elementos: " + lq.numElements());
         System.out.println(lq);
         System.out.println("Primeiro: " + lq.front());
-        System.out.println("Ultimo: " + lq.back());*/
+        System.out.println("Ultimo: " + lq.back());
     }
 }
